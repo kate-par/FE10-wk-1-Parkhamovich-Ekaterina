@@ -1,0 +1,106 @@
+.pricing {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #f5f5f5;
+}
+.pricing-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: #f5f5f5;
+}
+.pricing-title {
+  text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+.pricing-line {
+  width: 64px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: 1px solid #d98943;
+}
+.pricing-text {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
+.pricing__flex-block {
+  margin: 62px -15px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-block__pricingcard {
+  width: 340px;
+  margin: 0 15px;
+}
+.pricingcard__item1 {
+  width: 340;
+  margin-top: 15px;
+  text-align: center;
+  background-color: #333333;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.pricingcard__item2 {
+  width: 340;
+  text-align: center;
+  background-color: #333333;
+  margin-top: 2px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 100px;
+  color: #ffffff;
+}
+.pricingcard__item3 {
+  width: 340;
+  text-align: center;
+  background-color: #333333;
+  margin-top: 2px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.pricingcard__item {
+  width: 340;
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: 4px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  color: #86878b;
+}
+li a {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+}
+li a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #d98943;
+}
