@@ -10,11 +10,9 @@
   margin: 0 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .customers-card_text {
-  padding: 9px 22px 6px 23px;
-  border: 1px solid #e2e2e2;
+  padding: 10px;
   border-radius: 7px;
   background-color: #e2e2e2;
   font-family: "Open Sans";
@@ -24,38 +22,42 @@
   line-height: 19px;
   text-align: center;
   color: #86878b;
+  flex-grow: 1;
   position: relative;
-  z-index: 1;
 }
 .customers-card_text::after {
   content: "";
-  border-top: 17px solid #e2e2e2;
-  border-left: 17px solid transparent;
-  border-right: 17px solid transparent;
+  top: 100%;
+  display: block;
+  border-top: 12px solid #e2e2e2;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
   position: absolute;
-  top: 98;
   left: 39px;
 }
 
 .customers-card_block {
-  margin: 22px -15px 0;
+  margin-top: 22px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 }
 .customers-card_block-avatar {
-  margin: 0 auto;
+  margin-left: 30px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   overflow: hidden;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
+
 .customers-card_block-content {
-  margin: 0 auto;
-  align-items: center;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .customers-card_signature {
   font-family: "Open Sans";

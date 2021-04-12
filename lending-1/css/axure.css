@@ -49,14 +49,13 @@
   line-height: 19px;
   color: rgba(255, 255, 255, 0.8);
 }
-button {
+.link-axure {
   width: 135px;
   display: block;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 57px;
   border: 1px solid #ffffff;
-  background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
+  background-color: transparent;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
@@ -64,4 +63,10 @@ button {
   line-height: 42px;
   text-align: center;
   color: #ffffff;
+}
+.link-axure:hover {
+  transform: scale(1.2);
+  color: rgba(15, 15, 15);
+  border: 1px solid rgb(15, 15, 15);
+  background-color: rgba(247, 240, 240, 0.55);
 }

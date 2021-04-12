@@ -3,11 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Lending-1></title>
   </head>
 
   <body>
+    <header class="header">
+      <div class="container header-container">
+        <div class="header-row">
+          <div class="logo">AX</div>
+          <nav class="navigation">
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a href="#" class="link-header">Feautures</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#" class="link-header">About</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#" class="link-header">Pricing</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#" class="link-header">Reviews</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#" class="link-header">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="social">
+      <div class="container social-container">
+        <div class="social-row">
+          <div class="social-content">
+            <h3 class="social-title">Social Media</h3>
+            <div class="social-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet.
+              </p>
+            </div>
+          </div>
+          <div class="social-icons">
+            <ul class="social-icons__list">
+              <li class="social-icons__item">
+                <i class="fab fa-facebook-f"></i>
+              </li>
+              <li class="social-icons__item">
+                <i class="fab fa-twitter"></i>
+              </li>
+              <li class="social-icons__item">
+                <i class="fab fa-google-plus-g"></i>
+              </li>
+              <li class="social-icons__item">
+                <i class="fab fa-pinterest"></i>
+              </li>
+              <li class="social-icons__item">
+                <i class="fas fa-camera-retro"></i>
+              </li>
+              <li class="social-icons__item">
+                <i class="fab fa-stumbleupon"></i>
+              </li>
+              <li class="social-icons__item">
+                <i class="fas fa-wifi"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="awesome">
       <div class="container awesome-container">
         <h2 class="title awesome-title">Why this is awesome</h2>
@@ -72,7 +144,7 @@
               <li class="pricing-card__list-item">Basic</li>
               <li class="pricing-card__list-item">10$</li>
               <li class="pricing-card__list-item">
-                <a href="#" class="link"> Free for life </a>
+                <a href="#" class="link-pricing">Free for life</a>
               </li>
               <li class="pricing-card__list-item">1 gb of space</li>
               <li class="pricing-card__list-item">1 gb of space</li>
@@ -87,7 +159,7 @@
               <li class="pricing-card__list-item">Optima</li>
               <li class="pricing-card__list-item">20$</li>
               <li class="pricing-card__list-item">
-                <a href="#" class="link"> Free for life </a>
+                <a href="#" class="link-pricing">Free for life</a>
               </li>
               <li class="pricing-card__list-item">1 gb of space</li>
               <li class="pricing-card__list-item">1 gb of space</li>
@@ -102,7 +174,7 @@
               <li class="pricing-card__list-item">Pro</li>
               <li class="pricing-card__list-item">30$</li>
               <li class="pricing-card__list-item">
-                <a href="#" class="link"> Free for life </a>
+                <a href="#" class="link-pricing">Free for life</a>
               </li>
               <li class="pricing-card__list-item">1 gb of space</li>
               <li class="pricing-card__list-item">1 gb of space</li>
@@ -138,13 +210,11 @@
             </div>
             <div class="customers-card_block">
               <div class="customers-card_block-avatar">
-                <img src="/img/avatar/mario.png" alt="mario" />
+                <img src="/img/avatar/jeremy.jpg" alt="jeremy" />
               </div>
               <div class="customers-card_block-content">
                 <h4 class="customers-card_signature">Jeremy H.</h4>
-                <div class="customers-card_profession">
-                  <p>Manager</p>
-                </div>
+                <span class="customers-card_profession">Manager </span>
               </div>
             </div>
           </div>
@@ -161,13 +231,11 @@
             </div>
             <div class="customers-card_block">
               <div class="customers-card_block-avatar">
-                <img src="/img/avatar/sonic.jpg" alt="sonic" />
+                <img src="/img/avatar/peter.jpg" alt="peter" />
               </div>
               <div class="customers-card_block-content">
                 <h4 class="customers-card_signature">Peter P.</h4>
-                <div class="customers-card_profession">
-                  <p>Engineer</p>
-                </div>
+                <span class="customers-card_profession">Engineer </span>
               </div>
             </div>
           </div>
@@ -184,13 +252,11 @@
             </div>
             <div class="customers-card_block">
               <div class="customers-card_block-avatar">
-                <img src="/img/avatar/echidna.png" alt="echidna" />
+                <img src="/img/avatar/elena.jpg" alt="elena" />
               </div>
               <div class="customers-card_block-content">
                 <h4 class="customers-card_signature">Elena S.</h4>
-                <div class="customers-card_profession">
-                  <p>Designer</p>
-                </div>
+                <span class="customers-card_profession">Designer </span>
               </div>
             </div>
           </div>
@@ -206,9 +272,42 @@
             Use the sections you need, remove the ones you don't. Create
             gorgeous prototypes faster than ever!
           </p>
-          <button name="axure-button">Download</button>
         </div>
+        <a href="#" class="link-axure">Download</a>
       </div>
     </section>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-icons">
+          <ul class="footer-icons__list">
+            <li class="footer-icons__item">
+              <i class="fab fa-facebook-f"></i>
+            </li>
+            <li class="footer-icons__item">
+              <i class="fab fa-twitter"></i>
+            </li>
+            <li class="footer-icons__item">
+              <i class="fab fa-google-plus-g"></i>
+            </li>
+            <li class="footer-icons__item">
+              <i class="fab fa-pinterest"></i>
+            </li>
+            <li class="footer-icons__item">
+              <i class="fas fa-camera-retro"></i>
+            </li>
+            <li class="footer-icons__item">
+              <i class="fab fa-stumbleupon"></i>
+            </li>
+            <li class="footer-icons__item">
+              <i class="fas fa-wifi"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-text">
+          <p>© 2015 Axure Themes</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

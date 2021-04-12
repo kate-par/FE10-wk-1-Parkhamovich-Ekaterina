@@ -1,0 +1,63 @@
+header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #000000;
+}
+.header-container {
+  background-color: #000000;
+}
+.header-row {
+  margin: 0 -15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo {
+  margin: 0 15px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.logo::after {
+  content: "IT";
+  color: #e72424;
+}
+.navigation {
+  margin: 0 15px;
+}
+.navigation-list {
+  width: 489px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.link-header {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+.link-header:hover {
+  transform: scale(0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
