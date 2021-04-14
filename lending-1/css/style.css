@@ -8,6 +8,8 @@
 @import url(../css/header.css);
 @import url(../css/social.css);
 @import url(../css/footer.css);
+@import url(../css/firstscreen.css);
+@import url(../css/contact.css);
 
 html {
   font-family: "Raleway", sans-serif;
@@ -52,8 +54,8 @@ section {
   margin: auto;
   margin-top: 34px;
 }
+
 .text {
-  margin: 0 auto;
   margin-top: 34px;
   text-align: center;
   font-family: "Open Sans";
@@ -62,4 +64,62 @@ section {
   font-size: 14px;
   line-height: 19px;
   color: #86878b;
+}
+
+.fa-facebook-f:hover {
+  color: #064ca7;
+}
+.fa-twitter:hover {
+  color: #09c1f8;
+}
+.fa-google-plus-g:hover {
+  color: rgb(199, 7, 7);
+}
+.fa-pinterest:hover {
+  color: #9b0a0a;
+}
+.fa-instagram:hover {
+  color: whitesmoke;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6f918+0,d35028+41,c61f81+65,865fad+100 */
+  background: rgb(246, 249, 24); /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(246, 249, 24, 1) 0%,
+    rgba(211, 80, 40, 1) 41%,
+    rgba(198, 31, 129, 1) 65%,
+    rgba(134, 95, 173, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(246, 249, 24, 1) 0%,
+    rgba(211, 80, 40, 1) 41%,
+    rgba(198, 31, 129, 1) 65%,
+    rgba(134, 95, 173, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    rgba(246, 249, 24, 1) 0%,
+    rgba(211, 80, 40, 1) 41%,
+    rgba(198, 31, 129, 1) 65%,
+    rgba(134, 95, 173, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f918', endColorstr='#865fad',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.fa-stumbleupon:hover {
+  color: red;
+}
+.fa-wifi:hover {
+  color: rgb(41, 221, 221);
+}
+
+label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: left;
+  color: #bdbdbd;
 }

@@ -35,10 +35,8 @@
   text-align: left;
   color: #86878b;
 }
-.social-icons {
-  margin: auto 15px;
-}
 .social-icons__list {
+  margin: 0 15px;
   width: 684px;
   display: flex;
   flex-direction: row;
@@ -46,17 +44,15 @@
   justify-content: space-between;
   align-items: center;
 }
-.social-icons__item {
+.social-icons__item:last-child {
+  transform: rotate(45deg);
+}
+.link-social {
+  display: block;
   font-size: 42px;
   color: #86878b;
   transition-duration: 0.3s;
 }
-.social-icons__item:last-child {
-  transform: rotate(45deg);
-}
-
-.social-icons__item:hover {
-  color: #d98943;
+.link-social:hover {
   transform: scale(1.5);
-  cursor: pointer;
 }

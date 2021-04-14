@@ -1,7 +1,11 @@
 header {
-  width: 100%;
   padding: 20px 0;
   background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 .header-container {
   background-color: #000000;
@@ -13,7 +17,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.logo {
+.header-logo {
   margin: 0 15px;
   font-family: "Raleway";
   font-style: normal;
@@ -22,12 +26,12 @@ header {
   line-height: 35px;
   color: #ffffff;
 }
-.logo::after {
+.header-logo::after {
   content: "IT";
   color: #e72424;
 }
 .navigation {
-  margin: 0 15px;
+  margin: auto 15px;
 }
 .navigation-list {
   width: 489px;
@@ -42,7 +46,6 @@ header {
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  line-height: 35px;
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -53,6 +56,7 @@ header {
   border-left: 1px solid #000000;
   padding-bottom: 2px;
   padding-left: 2px;
+  transition-duration: 0.2s;
 }
 .link-header:hover {
   transform: scale(0.9);

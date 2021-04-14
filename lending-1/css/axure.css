@@ -39,7 +39,6 @@
   margin-top: 34px;
 }
 .axure-text {
-  margin: 0 auto;
   margin-top: 34px;
   text-align: center;
   font-family: "Raleway";
@@ -63,10 +62,11 @@
   line-height: 42px;
   text-align: center;
   color: #ffffff;
+  transition: 0.5s;
 }
 .link-axure:hover {
   transform: scale(1.2);
   color: rgba(15, 15, 15);
-  border: 1px solid rgb(15, 15, 15);
+  border: 1px solid rgb(15, 15, 15, 0.9);
   background-color: rgba(247, 240, 240, 0.55);
 }
