@@ -6,7 +6,7 @@
   justify-content: space-around;
 }
 .customers-card {
-  width: 298px;
+  width: 18.625rem;
   margin: 0 15px;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,8 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   text-align: center;
   color: #86878b;
   flex-grow: 1;
@@ -63,8 +63,8 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   color: #333333;
 }
 .customers-card_profession {
@@ -72,7 +72,7 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   color: #86878b;
 }

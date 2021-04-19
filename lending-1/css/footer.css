@@ -7,11 +7,11 @@ footer {
   background-color: #000000;
 }
 .footer-icons__list {
-  width: 317px;
+  width: 19.8125rem;
   margin: auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -20,7 +20,7 @@ footer {
 }
 .link-footer {
   display: block;
-  font-size: 23px;
+  font-size: 1.4375rem;
   color: rgba(255, 255, 255, 0.5);
   transition-duration: 0.4s;
 }
@@ -33,7 +33,7 @@ footer {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
   color: rgba(255, 255, 255, 0.5);
 }

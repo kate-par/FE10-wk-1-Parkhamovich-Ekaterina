@@ -9,19 +9,19 @@
   margin: 0 -15px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 .social-content {
-  width: 365px;
+  width: 22.8125rem;
   margin: 0 15px;
 }
 .social-title {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   text-align: left;
   color: #333333;
 }
@@ -30,17 +30,17 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   text-align: left;
   color: #86878b;
 }
 .social-icons__list {
   margin: 0 15px;
-  width: 684px;
+  width: 42.75rem;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -49,7 +49,7 @@
 }
 .link-social {
   display: block;
-  font-size: 42px;
+  font-size: 2.625rem;
   color: #86878b;
   transition-duration: 0.3s;
 }

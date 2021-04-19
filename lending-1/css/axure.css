@@ -11,7 +11,7 @@
   background-color: rgba(0, 0, 0, 0.55);
   display: block;
   position: absolute;
-  top: -1px;
+  top: 0;
   left: 0;
 }
 
@@ -25,14 +25,14 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
   color: #ffffff;
 }
 .axure-title::after {
   content: "";
-  width: 64px;
-  height: 2px;
+  width: 4rem;
+  height: 0.125rem;
   display: block;
   background-color: #ffffff;
   margin: auto;
@@ -44,12 +44,12 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.1875rem;
   color: rgba(255, 255, 255, 0.8);
 }
 .link-axure {
-  width: 135px;
+  width: 8.4375rem;
   display: block;
   margin: 0 auto;
   margin-top: 57px;
@@ -58,8 +58,8 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 42px;
+  font-size: 0.9375rem;
+  line-height: 2.625rem;
   text-align: center;
   color: #ffffff;
   transition: 0.5s;

@@ -14,7 +14,7 @@ header {
   margin: 0 -15px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 .header-logo {
@@ -22,8 +22,8 @@ header {
   font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 1.875rem;
+  line-height: 2.1875rem;
   color: #ffffff;
 }
 .header-logo::after {
@@ -34,10 +34,10 @@ header {
   margin: auto 15px;
 }
 .navigation-list {
-  width: 489px;
+  width: 30.5625rem;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -45,7 +45,7 @@ header {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
 }
