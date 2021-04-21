@@ -1,11 +1,10 @@
 .firstscreen {
-  padding-top: 175px;
+  padding-top: 10.9375rem;
   background: url(/img/bg/firstscreen.png) no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
   z-index: 0;
-  min-height: 78vh;
 }
 .firstscreen::after {
   content: "";
@@ -65,7 +64,7 @@
   margin-top: 32px;
 }
 .firstscreen-text {
-  width: 17.625rem;
+  max-width: 17.625rem;
   margin-top: 39px;
   font-family: "Raleway";
   font-style: normal;

@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 .social-content {
-  width: 22.8125rem;
+  max-width: 22.8125rem;
   margin: 0 15px;
 }
 .social-title {
