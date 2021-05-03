@@ -1,0 +1,90 @@
+.team-row {
+  margin: 0 -7.5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .team-card {
+    width: 272px;
+    margin: 0 7.5px;
+    .team-card__photo {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .team-card__name {
+      text-align: left;
+      margin-top: 30px;
+      font-family: $font-raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 17px;
+      color: $black;
+    }
+    .team-card__profession {
+      text-align: left;
+      margin-top: 16px;
+      text-transform: uppercase;
+      font-family: $font-raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 10px;
+      color: $red;
+    }
+    .team-card__text {
+      margin-top: 29px;
+      font-family: $font-raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: left;
+      color: $grey;
+    }
+    .team-icons__list {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      .team-icons__item {
+        .team-link {
+          width: 41px;
+          display: block;
+          margin: 0 auto;
+          margin-right: 5px;
+          color: $grey;
+          border: 1px solid #e2e4e6;
+          font-size: 20px;
+          line-height: 41px;
+          text-align: center;
+          transition-duration: 0.2s;
+          &:hover {
+            transform: scale(1.1);
+            color: #064ca7;
+          }
+        }
+      }
+      .team-icons__item:nth-child(2) {
+        .team-link {
+          &:hover {
+            transform: scale(1.1);
+            color: #09c1f8;
+          }
+        }
+      }
+    }
+    @media (max-width: 1162px) {
+      margin-bottom: 15px;
+    }
+  }
+  .team-card:last-child {
+    @media (max-width: 1162px) {
+      margin-bottom: 0px;
+    }
+  }
+  @media (max-width: 1162px) {
+    justify-content: space-around;
+  }
+}

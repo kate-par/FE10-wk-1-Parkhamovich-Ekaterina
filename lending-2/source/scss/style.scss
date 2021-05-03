@@ -1,0 +1,45 @@
+$white: #ffffff;
+$red: #e84545;
+$violetdark: #2b2e4a;
+$black: #2d3033;
+$grey: #6c7279;
+$violet: #3a3e64;
+$violetgrey: #313454;
+$greylight: #808080;
+$font-cardo: "Cardo", serif;
+$font-opensans: "Open Sans", sans-serif;
+$font-raleway: "Raleway", sans-serif;
+
+html {
+  font-family: "Cardo", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@import "firstscreen.scss";
+@import "features.scss";
+@import "works.scss";
+@import "team.scss";
+@import "clients.scss";
+@import "download.scss";
+@import "contact.scss";
+@import "footer.scss";

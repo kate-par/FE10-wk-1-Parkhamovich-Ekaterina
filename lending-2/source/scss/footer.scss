@@ -1,0 +1,36 @@
+footer {
+  width: 100%;
+  padding: 30px 0 29px;
+  background-color: $violetgrey;
+}
+
+.footer-copyright {
+  max-width: 312px;
+  margin: auto;
+  font-family: $font-raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: $greylight;
+  .footer-heart {
+    color: $red;
+  }
+  .footer-name {
+    font-family: $font-opensans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: $white;
+    @media (max-width: 576px) {
+      font-size: 13px;
+      line-height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

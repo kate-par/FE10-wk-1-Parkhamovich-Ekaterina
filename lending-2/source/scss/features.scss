@@ -1,0 +1,40 @@
+.features {
+  padding-bottom: 50px;
+}
+.features-row {
+  margin: 0 -15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .features-card {
+    width: 296px;
+    margin: 0 15px;
+    .features-card__icon {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .features-card__title {
+      text-align: center;
+      margin-top: 34px;
+      text-transform: uppercase;
+      font-family: $font-raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 11px;
+      color: $black;
+    }
+    .features-card__text {
+      margin-top: 25px;
+      margin-bottom: 74px;
+      font-family: $font-raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      color: $grey;
+    }
+  }
+}
